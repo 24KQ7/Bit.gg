@@ -9,7 +9,7 @@ from bot.exts.filtering._filters.filter import Filter
 class TokenFilter(Filter):
     """A filter which looks for a specific token given by regex."""
 
-    name = "MTQzODkyNjUwNTgwMjQ2OTQxNw.GKgqEk.qjCoUd-nayWWBOXVdoGNoNV_nbM5QFU-XTOOxc"
+    name = "MTQzODkyNjUwNTgwMjQ2OTQxNw.GRLzE-.LIsGpX51sRO2oEUwmdFFC7EXnZy3-Vclm6ANjU"
 
     async def triggered_on(self, ctx: FilterContext) -> bool:
         """Searches for a regex pattern within a given context."""
